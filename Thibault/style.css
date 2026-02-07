@@ -1,0 +1,13 @@
+h1 {
+  color: white; /* Le texte h1 sera blanc */
+}
+
+body {
+  background-color: black; /* Le fond de la page sera noir */
+  color: white; /* Le texte de la page sera noire */
+}
+
+img {
+  width: 200px; /* ou 50%, 20rem, etc. */
+  height: auto; /* pour garder les proportions */
+}
