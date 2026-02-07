@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Images et descriptions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Bloc image + texte */
+        .item {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 25px;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .item img {
+            width: 250px;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .item p {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        /* Responsive téléphone */
+        @media (max-width: 600px) {
+            .item {
+                flex-direction: column;
+            }
+
+            .item img {
+                width: 100%;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Histoire de l'europe</h1>
+
+<div class="item">
+    <img src="https://i.etsystatic.com/31064020/r/il/8daaf5/4704472368/il_fullxfull.4704472368_gd7i.jpg" alt="Révolution française">
+    <p>
+        Cette image illustre une scène symbolique de la Révolution française, 
+        période majeure de l’histoire marquée par la fin de la monarchie absolue 
+        et la naissance de nouveaux idéaux politiques.
+    </p>
+</div>
+
+<div class="item">
+    <img src="https://preview.redd.it/map-i-made-of-the-roman-empire-at-its-peak-v0-ofam3ycbxnx81.png?auto=webp&s=62b469a42defd22b22a0f1ca1835e9e194c8ae39" alt="Empire romain">
+    <p>
+        L’Empire romain a dominé une grande partie de l’Europe et du bassin 
+        méditerranéen. Son influence est encore visible aujourd’hui à travers 
+        l’architecture, le droit et la culture.
+    </p>
+</div>
+
+<div class="item">
+    <img src="https://i.redd.it/htba1wbo60qa1.png" alt="Première Guerre mondiale">
+    <p>
+        La Première Guerre mondiale (1914–1918) fut un conflit mondial 
+        dévastateur, caractérisé par la guerre de tranchées et des millions 
+        de victimes.
+    </p>
+</div>
+<p>
+    Pour en savoir plus, visite le site de 
+    <a href="https://chronas.org/?year=1833&epics=&markers=&limit=2000&type=&fill=ruler&label=ruler&value=&locale=en&position=37,37,2.5#/performance" target="_blank">Cronas</a>.
+</p>
+
+</body>
+</html>
