@@ -1,0 +1,21 @@
+h1 {
+  
+  color: white; 
+}
+
+body {
+  text-align: center; 
+   margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(to right, #bdf8b8, #ff7373);
+ 
+  color: white;
+ 
+}
+
+ol{
+  margin: 20px auto;
+  padding: 0;
+  list-style-position: inside;
+  
+}
