@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  color: #222;
+}
+
+/* Titre principal */
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+  animation: fadeDown 1s ease;
+}
+
+/* Animation apparition */
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Liste */
+ol {
+  max-width: 900px;
+  margin: auto;
+  padding: 0;
+}
+
+/* Chaque œuvre */
+li {
+  list-style-position: inside;
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  /* Animation d’apparition */
+  animation: fadeUp 0.8s ease forwards;
+}
+
+/* Décalage progressif */
+li:nth-child(1) { animation-delay: 0.1s; }
+li:nth-child(2) { animation-delay: 0.2s; }
+li:nth-child(3) { animation-delay: 0.3s; }
+li:nth-child(4) { animation-delay: 0.4s; }
+li:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Titres */
+li h2 {
+  margin-top: 0;
+  color: #2c3e50;
+  transition: color 0.3s ease;
+}
+
+/* Image */
+li img {
+  width: 200px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effet au survol */
+li:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+li:hover h2 {
+  color: #e74c3c;
+}
+
+/* Texte */
+li p {
+  margin: 10px 0 0 0;
+  line-height: 1.5;
+}
+
+/* Conteneur texte */
+li div {
+  flex: 1;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  li {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  li img {
+    width: 150px;
+  }
+}
