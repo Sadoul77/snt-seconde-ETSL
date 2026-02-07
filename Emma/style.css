@@ -1,0 +1,21 @@
+body{
+   text-align: center; 
+   background-color: #ABD4AE;
+     color: #68826A
+}
+a {
+  color: #F4FAEB;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.container img {
+  width: 150px;
+}
+img {
+  width: 150px;
+  height: auto;
+}
