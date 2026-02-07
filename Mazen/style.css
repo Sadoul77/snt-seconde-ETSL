@@ -1,0 +1,10 @@
+body {
+ text-align: center; /* Aligne letexte au centre */
+   min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at top, rgba(255,0,0,0.15), transparent 60%),
+    linear-gradient(135deg, #0b0b0b 0%, #111 40%, #000 100%);
+  color: #fff;
+  font-family: 'Arial Black', Impact, sans-serif;
+}
