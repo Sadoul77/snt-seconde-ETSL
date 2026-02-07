@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url("https://images.unsplash.com/photo-1532187863486-abf9dbad1b69");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+   color: blue; 
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+   color: red; 
+    font-size: 18px;
+}
+
+main {
+    padding: 40px;
+}
+
+.intro {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.content img {
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.themes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.theme {
+    background-color: rgba(255, 255, 255, 0.12);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.theme h3 {
+    margin-bottom: 15px;
+}
+
+.theme img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 15px 0;
+    border-radius: 10px;
+
+    list-style-position: inside;
+}
