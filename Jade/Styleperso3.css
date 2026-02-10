@@ -1,0 +1,20 @@
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: orange; 
+  color: brown;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto; 
+}
+
+h1 {
+  color: brown;
+  margin-bottom: 20px; 
+}
